@@ -4,20 +4,22 @@
     --logo-focus-color: #2196F3;
     --bckgr-color: #2F303A;
     --bckgr-deteil-color: #E5E5E5;
-    --bckgr-body-color:#FFFFFF;
-    --picture-color:#F5F4FA;
+    --bckgr-body-color: #FFFFFF;
+    --picture-color: #F5F4FA;
 }
 
-html{
+html {
     box-sizing: border-box;
 }
 
-*,*::before,*::after{
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
 body {
-    font-family:  Roboto, sans-serif;
+    font-family: Roboto, sans-serif;
     background-color: var(--bckgr-body-color);
     color: var(--primary-text-color);
 
@@ -31,358 +33,360 @@ ul {
 
 /* header */
 
-    /* navigation */
+/* navigation */
 
-    .logo{
-        font-family: 'Raleway', sans-serif;
-        
-        font-size: 26px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
-        text-decoration: none;
-        color: #000000;
-    }
+.logo {
+    font-family: 'Raleway', sans-serif;
 
-    .logo-log{
-        color: var(--logo-focus-color);
-    }
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #000000;
+}
 
-    .nav-list{
-        margin: 0;
-        padding: 0;
-    }
+.logo-log {
+    color: var(--logo-focus-color);
+}
 
-    .nav-list .list {
+.nav-list {
+    margin: 0;
+    padding: 0;
+}
 
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-decoration: none;
-        color: var(--primary-text-color);
+.nav-list .list {
 
-    }
-    
-    .nav-list .list:hover,
-    .nav-list .list:focus {
-        color: var(--logo-focus-color);
-    }
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--primary-text-color);
 
-    .nav-list .list.current{
-        color: var(--logo-focus-color);
-    }
+}
 
-    .nav-contact{
-        margin: 0;
-        padding: 0;
-    }
+.nav-list .list:hover,
+.nav-list .list:focus {
+    color: var(--logo-focus-color);
+}
 
-    .nav-contact .contact {
+.nav-list .list.current {
+    color: var(--logo-focus-color);
+}
 
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.15;
-        letter-spacing: 0.02em;
-        text-decoration: none;
-        color: var(--title-text-color);
+.nav-contact {
+    margin: 0;
+    padding: 0;
+}
 
-    }
+.nav-contact .contact {
 
-    .nav-contact .contact:hover,
-    .nav-contact .contact:focus {
-        color: var(--logo-focus-color);
-    }
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--title-text-color);
+
+}
+
+.nav-contact .contact:hover,
+.nav-contact .contact:focus {
+    color: var(--logo-focus-color);
+}
 
 /* main content */
 
-    .main{
+.main {}
 
-    }
+/* top panel */
 
-    /* top panel */
+.panel {
 
-        .panel{
+    padding-top: 200px;
+    padding-bottom: 280px;
+    text-align: center;
 
-            padding-top: 200px;
-            padding-bottom: 280px;
-            text-align: center;
-            
-            background-color: var(--bckgr-color);
-            outline: 2px solid red;
-            
-            
-        }
-
-        .heading{
-            
-            margin: 0;
-            
-            margin-left: auto;
-            margin-right: auto;
-            width: 696px;
-            height: 120px;
-            margin-bottom: 30px;
-            font-weight: 900;
-            font-size: 44px;
-            line-height: 1.4;
-           
-            letter-spacing: 0.06em;
-            text-transform: uppercase;
-            color: var(--bckgr-body-color);
-            outline: 2px solid yellow;
-        }
-
-        .button-primary{
-
-            min-width: 200px;
-            display: inline-block;
-            border-radius: 4px;
-            padding: 10px 32px;
-            text-align: center;
-            font-family: 'Roboto', sans-serif;           
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 1.9;
-            letter-spacing: 0.06em;
-            background-color: var(--logo-focus-color);
-            color: var(--bckgr-body-color);
-            
-        }
-
-    /* deteil */
-
-        .deteil.picture{
-            background-color: var(--bckgr-deteil-color);
-
-        }
-
-        .deteil{
-
-            outline: 10px solid green
-        }
-
-        .deteil-bl{
-            
-        }
-        .skills{
-            margin: 0;
-        }
-
-        .deteil-block h3{
-
-            margin: 0;
-            padding: 0;
-            margin-bottom: 10px;
-            font-size: 14px;
-            line-height: 1.15;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: var(--primary-text-color);
-        }
-
-        .deteil-block {
-            margin: 0;
-            padding: 0;
-            outline: 10px solid purple;
-           
-        }
-
-        .deteil-text{
-            margin: 0;
-            padding: 0;
-            font-size: 14px;
-            line-height: 1.7;
-            letter-spacing: 0.03em;            
-            color: var(--title-text-color);
-        }
+    background-color: var(--bckgr-color);
+    outline: 2px solid red;
 
 
-       /*  What doing  */
-        
-            .picture{
-                
-            }   
-            .picture-desc{
+}
 
-                margin: 0;
-                padding: 0;
-                font-weight: 700;
-                font-size: 36px;
-                line-height: 1.15;
-                text-align: center;
-                letter-spacing: 0.03em;
-                color: var(--primary-text-color);
-                
-            }
-            .picture-img{
-                margin: 0;
-                padding: 0;
+.heading {
 
-            }
-            .picture-pic{
+    margin: 0;
 
-            }
+    margin-left: auto;
+    margin-right: auto;
+    width: 696px;
+    height: 120px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
 
-    /* Nasha comanda */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--bckgr-body-color);
+    outline: 2px solid yellow;
+}
 
-        .comand{
-            background-color: var(--bckgr-deteil-color);
-            font-weight: 700;
-            font-size: 36px;
-            line-height: 1.5;
-            text-align: center;
-            letter-spacing: 0.03em;           
-            color: var(--primary-text-color);
-        }
-        .comand-log{
+.button-primary {
 
-            margin: 0;
-            padding: 0;
-            font-weight: 700;
-            font-size: 36px;
-            line-height: 1.16;
-            text-align: center;
-            letter-spacing: 0.03em;
-            
-        }
-        .comand-block{
-            margin: 0;
-            padding: 0;
+    min-width: 200px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    background-color: var(--logo-focus-color);
+    color: var(--bckgr-body-color);
 
-        }
-        .comand-user{
-            margin: 0;
-            padding: 0;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 19px;
-            text-align: center;
-            letter-spacing: 0.03em;           
-            color: var(--primary-text-color);
-        }
-        .profession{
-            margin: 0;
-            padding: 0;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 1.2;
-            text-align: center;
-            letter-spacing: 0.03em;            
-            color: var(--title-text-color);
-        }
+}
+
+/* deteil */
+
+.deteil.picture {
+    background-color: var(--bckgr-deteil-color);
+
+}
+
+.deteil {
+
+    outline: 10px solid green
+}
+
+.deteil-bl {}
+
+.skills {
+    margin: 0;
+}
+
+.deteil-block h3 {
+
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.deteil-block {
+    margin: 0;
+    padding: 0;
+    outline: 10px solid purple;
+
+}
+
+.deteil-text {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+
+/*  What doing  */
+
+.picture {}
+
+.picture-desc {
+
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+
+}
+
+.picture-img {
+    margin: 0;
+    padding: 0;
+
+}
+
+.picture-pic {}
+
+/* Nasha comanda */
+
+.comand {
+    background-color: var(--bckgr-deteil-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.comand-log {
+
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+.comand-block {
+    margin: 0;
+    padding: 0;
+
+}
+
+.comand-user {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.profession {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
 
 /* Footer */
- 
-    .f-adress{
-        background-color: var(--bckgr-color);
-    }
-    .f-adress .logo{
-        font-family: 'Raleway',
+
+.f-adress {
+    background-color: var(--bckgr-color);
+}
+
+.f-adress .logo {
+    font-family: 'Raleway',
         sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
-        color: var(--bckgr-body-color);
-    }
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--bckgr-body-color);
+}
 
-    /* Adress */
+/* Adress */
 
-        .inform{
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.7;
-            letter-spacing: 0.03em;       
-        
-        }
+.inform {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 
-        .inform-block{
-            margin: 0;
-            padding: 0;
-        }
+}
 
-        .inform-block .inform-cont:hover,
-        .inform-block .inform-cont:focus {
-            color: var(--logo-focus-color);          
-        }
-        .inform-block .inform-cont-gr:hover,
-        .inform-block .inform-cont-gr:focus{
-            color: var(--logo-focus-color);
-        }
+.inform-block {
+    margin: 0;
+    padding: 0;
+}
 
-        .inform-cont{  
-            text-decoration: none;
-            color: var(--bckgr-body-color);
-        }
-        .inform-cont-gr{
-            text-decoration: none;
-            color: rgba(255, 255, 255, 0.6);          
-        }
+.inform-block .inform-cont:hover,
+.inform-block .inform-cont:focus {
+    color: var(--logo-focus-color);
+}
+
+.inform-block .inform-cont-gr:hover,
+.inform-block .inform-cont-gr:focus {
+    color: var(--logo-focus-color);
+}
+
+.inform-cont {
+    text-decoration: none;
+    color: var(--bckgr-body-color);
+}
+
+.inform-cont-gr {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
 
 /*  M A I N  P O R T F O L I O  */
-        .portfolio-body{
-            background-color: var(--bckgr-deteil-color);
-        }
+.portfolio-body {
+    background-color: var(--bckgr-deteil-color);
+}
 
-    /* Button */
+/* Button */
 
 
-    .main-portfolio{
-       
-    }
-    .panel-port{
+.main-portfolio {}
 
-    }
-    .button-panel{
+.panel-port {}
 
-    }
-    .button-secondary{
+.button-panel {}
 
-        min-width: 73px;
-        display: inline-block;
-        border-radius: 4px;
-        padding: 6px 22px;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.6;
-        text-align: center;
-        letter-spacing: 0.03em;       
-        cursor: pointer;
-        font-family: inherit;
-    }
-    .button-secondary{
-        background-color: var(--picture-color);
-        color: var(--primary-text-color);
-        
-    }
-    .button-secondary:hover,
-    .button-secondary:focus{
-        color: var(--bckgr-body-color);
-        background-color: var(--logo-focus-color);
-    }
+.button-secondary {
 
-    /* Srvices */
+    min-width: 73px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 6px 22px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    font-family: inherit;
+}
 
-    .serv-photo .photo{
+.button-secondary {
+    background-color: var(--picture-color);
+    color: var(--primary-text-color);
 
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
-        color: var(--primary-text-color);
+}
 
-    }
+.button-secondary:hover,
+.button-secondary:focus {
+    color: var(--bckgr-body-color);
+    background-color: var(--logo-focus-color);
+}
 
-    .photo-text{
+/* Srvices */
 
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.9;
-        letter-spacing: 0.03em;
-        color: var(--title-text-color);
-        
-    } 
+.serv-photo .photo {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+
+}
+
+.photo-text {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+
+}
